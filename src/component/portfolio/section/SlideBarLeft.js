@@ -28,7 +28,7 @@ export default function SlideBarLeft() {
             }}
         >
             <Box>
-                <VStack gap={3}>
+                <VStack gap={5}>
                     <CustomIcon
                         link="https://www.facebook.com/thanhviihuynh/"
                         iconName="basil:facebook-solid"

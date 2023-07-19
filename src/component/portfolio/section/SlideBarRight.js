@@ -28,7 +28,7 @@ export default function SlideBarRight() {
             mt="-20px"
         >
             <Box>
-                <VStack gap={1}>
+                <VStack gap="5px">
                     <div className="mark-title">
                         <Text fontSize="20px" className="qs-m">
                             About <span className="main-color qs-m">V</span>
