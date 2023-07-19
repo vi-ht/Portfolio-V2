@@ -1,0 +1,21 @@
+.paralax {
+
+    /* The image used */
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index:-1;
+    top: 0;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.thesis{
+    background-image: url(../asset/image/thesis.webp);
+    background-position: 0% 100%;
+}
+.uiux{
+    background-image: url(../asset/image/uiux.png);
+    background-position: 100% 43%; 
+}

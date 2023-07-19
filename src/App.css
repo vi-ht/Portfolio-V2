@@ -1,0 +1,26 @@
+* {
+   font-family: qs-regular;
+}
+
+/* width */
+::-webkit-scrollbar {
+   width: 0px;
+}
+
+
+
+/* Track */
+::-webkit-scrollbar-track {
+   background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+   background: #fc9394;
+   border-radius: 7px
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+   background: #FB797F;
+}

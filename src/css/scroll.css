@@ -1,0 +1,25 @@
+ #scroller {
+     width: 100vw;
+     height: 100vh;
+     text-align: left;
+     overflow: hidden;
+     box-sizing: border-box;
+     scroll-snap-type: y mandatory;
+ }
+
+ #test {
+     transition: ease-in 0.7s;
+ }
+
+ .scroller-child {
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     scroll-snap-align: start;
+ }
+
+ /* #scroller>div:nth-child(2n) {
+     background-color: antiquewhite;
+ } */

@@ -1,0 +1,89 @@
+/* underline in Header.js)*/
+.underLine {
+    width: 50px;
+    height: 3px;
+    background-color: #FB797F;
+    display: none;
+    margin: auto;
+    border-radius: 10;
+}
+
+/* highlight text in Homepage.js */
+.highlight {
+    color: #FB797F;
+}
+
+.quotes {
+    font-size: 60px;
+    position: absolute;
+}
+
+.welcome-text {
+    position: relative;
+    left: 2.5rem;
+}
+
+.container {
+    position: relative;
+}
+.card-line{
+    width: 150px;
+    height: 3px;
+    background-color: gray;
+    margin-top: 20px;
+    border: 50%
+}
+
+.bg {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.bg-2nd {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+    top: 100vh;
+    left: 0;
+}
+
+/* icon in Homepage.js */
+.wave-hand {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+}
+
+.scroll {
+    width: 60px;
+    height: 56px;
+    position: relative;
+    top: -48px;
+    left: 16rem;
+}
+
+.vi::after {
+    content: url(./../asset/icon/openmoji_scroll1x.png);
+    position: absolute;
+    top: -5px
+}
+/* .quote-content::after{
+    content: "Read this: ";
+}
+.quote-content::before{
+    content: ";
+} */
+/* ProjectList.js */
+.line{
+    width: 170px;
+    height: 4px;
+    background-color: #FB797F;
+    border-radius: 15px;
+    margin-top: 5px;
+}

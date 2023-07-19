@@ -1,0 +1,9 @@
+.icon:hover {
+    color: "pink"
+    }
+.icon{
+    color: "lightgray !important";
+    cursor: pointer;
+
+    
+}

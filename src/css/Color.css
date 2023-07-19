@@ -1,0 +1,14 @@
+
+:root {
+    --pink: #FB797F;
+    --white: #ffffff;
+  }
+.main-color{
+    color: var(--pink) ;
+}
+.white-color{
+  color: var(--white) ;
+}
+.bg-main-color{
+  background-color: var(--pink) ;
+}
