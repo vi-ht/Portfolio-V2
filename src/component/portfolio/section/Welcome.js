@@ -5,12 +5,11 @@ import "./../../../css/scroll.css";
 import "./../../../css/background.css";
 //import hook
 //import chakra UI component
-import { Center, Flex } from "@chakra-ui/react";
+import { Text, Box, Center, Flex } from "@chakra-ui/react";
 //import image
 import wavehand from "../../../asset/icon/twemojiwavinghand.png";
-// import chakra components
-import { Text, Box } from "@chakra-ui/react";
-import { TextTemplate, BigTextTemplate } from "../component/TextTemplate";
+//import Logic
+import { BigTextTemplate } from "../component/TextTemplate";
 //----------------------------------------------------------
 
 export default function Welcome({ bg, z, p }) {

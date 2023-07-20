@@ -4,19 +4,15 @@ import "./../../../css/font.css";
 import "./../../../css/scroll.css";
 import "./../../../css/background.css";
 import "./../../../css/portfolio-anim.css";
-//import hook
-//import chakra UI component
-import { Center, Flex } from "@chakra-ui/react";
-//import image
 // import chakra components
-import { Text, Box } from "@chakra-ui/react";
-import { Grid, GridItem } from "@chakra-ui/react";
+import { Text, Box, Center, Grid, GridItem } from "@chakra-ui/react";
 //import image
-import wavehand from "../../../asset/icon/twemojiwavinghand.png";
 import Avatar from "../../../asset/icon/edu.png";
-import { TextTemplate, TitleTemplate } from "../component/TextTemplate";
+//import component
+import { TitleTemplate } from "../component/TextTemplate";
 import Layout from "./Layout";
 import EducationStage from "./EducationStage";
+//---------------------------------------------------------
 export default function Education() {
     return (
         <Layout id="edu">

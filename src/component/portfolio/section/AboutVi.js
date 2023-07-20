@@ -4,18 +4,15 @@ import "./../../../css/font.css";
 import "./../../../css/scroll.css";
 import "./../../../css/background.css";
 import "./../../../css/portfolio-anim.css";
-//import hook
 //import chakra UI component
-import { Center, Flex } from "@chakra-ui/react";
-//import image
-// import chakra components
-import { Text, Box } from "@chakra-ui/react";
-import { Grid, GridItem } from "@chakra-ui/react";
+import { Center, Grid, GridItem, Box } from "@chakra-ui/react";
 //import image
 import wavehand from "../../../asset/icon/twemojiwavinghand.png";
 import Avatar from "../../../asset/icon/ava.png";
+//import component
 import { TextTemplate, TitleTemplate } from "../component/TextTemplate";
 import Layout from "./Layout";
+//------------------------------------------------------------------
 export default function AboutVi() {
     return (
         <Layout id="about-vi">

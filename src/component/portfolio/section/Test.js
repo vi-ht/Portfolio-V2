@@ -7,9 +7,7 @@ import "./../../../css/portfolio-anim.css";
 //import hook
 import { useEffect } from "react";
 //import chakra UI component
-import { Center, Flex, IconButton, Box } from "@chakra-ui/react";
-//import iconify
-import { Icon } from "@iconify/react";
+import { Center, Box } from "@chakra-ui/react";
 // import components
 import SlideBarLeft from "./SlideBarLeft";
 import SlideBarRight from "./SlideBarRight";
@@ -21,7 +19,7 @@ import TechList from "./TechList";
 //import logic
 import { handleScroll } from "../side-effect/handleScroller";
 //----------------------------------------------------------
-export default function Welcome({ bg, z, p }) {
+export default function Welcome({ p }) {
     useEffect(() => {
         handleScroll();
     }, []);
@@ -81,37 +79,12 @@ export default function Welcome({ bg, z, p }) {
                 <div id="gradient-compo-3"></div>
                 <SlideBarLeft />
                 <SlideBarRight />
-                <IconButton
-                    aria-label="Search database"
-                    icon={
-                        <Icon
-                            icon="solar:arrow-down-broken"
-                            width="32"
-                            height="32"
-                            id="scroll-down-icon"
-                        />
-                    }
-                    borderRadius="50%"
-                    bg="radial-gradient(50% 50.00% at 50% 50.00%, rgba(251, 121, 127, 0.3) 10%, rgba(217, 217, 217, 0.00) 100%)"
-                    color="black"
-                    w="75px"
-                    height="75px"
-                    transform="rotate(180deg)"
-                    position="absolute"
-                    bottom="50px"
-                    right="50px"
-                    _hover={{
-                        color: "black",
-                        background:
-                            "radial-gradient(50% 50.00% at 50% 50.00%, rgba(251, 121, 127, 0.5) 10%, rgba(217, 217, 217, 0.00) 100%)",
-                    }}
-                />
                 <Box w="full" bg="transparent" id="scroller" className="">
                     <AboutVi />
                     <Education />
                     <Experience />
                     <Skill />
-                    <TechList/>
+                    <TechList />
                 </Box>
             </Center>
         </Center>

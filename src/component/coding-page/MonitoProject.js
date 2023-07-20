@@ -1,7 +1,6 @@
 //import css
 import "./../../css/font.css";
 import "./../../css/Color.css";
-import "./../../css/animate.css";
 //import layout
 import BgColorLayout from "../../layout/BgColorLayout";
 //import custom hook

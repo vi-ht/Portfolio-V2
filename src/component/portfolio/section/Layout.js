@@ -1,13 +1,11 @@
 //import css
-import "./../../../css/layout.css";
 import "./../../../css/font.css";
 import "./../../../css/scroll.css";
 import "./../../../css/background.css";
-import "./../../../css/portfolio-anim.css";
 //import hook
 //import chakra UI component
 import { Center, Flex } from "@chakra-ui/react";
-
+//---------------------------------------------
 export default function Layout({ children, id }) {
     return (
         <div className="scroller-child" id={id}>
@@ -21,7 +19,6 @@ export default function Layout({ children, id }) {
                     "2xl": "81rem", //1536px
                 }}
                 h="100vh"
-                // bg="red"
             >
                 <Flex
                     w="full"

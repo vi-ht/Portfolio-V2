@@ -1,7 +1,6 @@
 import "./../../../css/font.css";
 import "./../../../css/Color.css";
 import "./../../../css/layout.css";
-import "./../../../css/animate.css";
 import "./../../../css/background.css";
 const handleChangeTitle = (id) => {
     const element = document.querySelector(".mark-title").firstElementChild;
@@ -65,9 +64,9 @@ const handleScroll = () => {
     const clear = () => {
         document.querySelectorAll(".mark").forEach((mark) => {
             mark.style.backgroundColor = "#7D7D7D";
-            mark.style.height = "40px";
+            mark.style.height = "35px";
             mark.style.opacity = "0.5";
-            mark.parentElement.style.height = "40px";
+            mark.parentElement.style.height = "35px";
         });
     };
     const observer = new IntersectionObserver(
@@ -82,10 +81,10 @@ const handleScroll = () => {
                     )[0].style.backgroundColor = "#FB797F";
                     document.getElementsByClassName(
                         entry.target.id
-                    )[0].style.height = "60px";
+                    )[0].style.height = "55px";
                     document.getElementsByClassName(
                         entry.target.id
-                    )[0].parentElement.style.height = "60px";
+                    )[0].parentElement.style.height = "55px";
                     document.getElementsByClassName(
                         entry.target.id
                     )[0].style.opacity = "1";

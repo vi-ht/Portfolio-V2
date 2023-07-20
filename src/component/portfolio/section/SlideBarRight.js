@@ -2,14 +2,12 @@
 import "./../../../css/font.css";
 import "./../../../css/Color.css";
 import "./../../../css/layout.css";
-import "./../../../css/animate.css";
 import "./../../../css/background.css";
 // import chakraUI components
-import { VStack, Box, Center, Text } from "@chakra-ui/react";
-// import react-router-dom
-import { TextTemplate } from "../component/TextTemplate";
+import { VStack, Box, Center, Text, IconButton } from "@chakra-ui/react";
+//import iconify
+import { Icon } from "@iconify/react";
 //-------------------------
-
 export default function SlideBarRight() {
     const w = (document.documentElement.clientWidth - 80 * 16) / 2 + "px";
     return (
@@ -52,6 +50,31 @@ export default function SlideBarRight() {
                     <div className="mark-outside ">
                         <div className="mark"></div>
                     </div>
+                    <div className="mark-outside ">
+                        <div className="mark"></div>
+                    </div>
+                    <IconButton
+                        aria-label="Search database"
+                        icon={
+                            <Icon
+                                icon="solar:arrow-down-broken"
+                                width="27"
+                                height="27"
+                                id="scroll-down-icon"
+                            />
+                        }
+                        borderRadius="50%"
+                        bg="radial-gradient(50% 50.00% at 50% 50.00%, rgba(251, 121, 127, 0.3) 10%, rgba(217, 217, 217, 0.00) 100%)"
+                        color="black"
+                        w="65px"
+                        height="65px"
+                        transform="rotate(180deg)"
+                        _hover={{
+                            color: "black",
+                            background:
+                                "radial-gradient(50% 50.00% at 50% 50.00%, rgba(251, 121, 127, 0.5) 10%, rgba(217, 217, 217, 0.00) 100%)",
+                        }}
+                    />
                 </VStack>
             </Box>
         </Center>

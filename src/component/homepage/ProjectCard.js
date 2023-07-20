@@ -1,7 +1,6 @@
 //import css
 import "./../../css/font.css";
 import "./../../css/layout.css";
-import "./../../css/animate.css";
 // import chakra components
 import { Text, GridItem } from "@chakra-ui/react";
 //import React-router-dom

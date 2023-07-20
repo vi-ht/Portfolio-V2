@@ -1,7 +1,6 @@
 //import css
 import "./../../css/font.css";
 import "./../../css/layout.css";
-import "./../../css/animate.css";
 //import layout
 import BgImageLayout from "../../layout/BgImageLayout";
 //import image

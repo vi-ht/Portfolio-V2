@@ -1,7 +1,6 @@
 //import css
 import "./../../css/font.css";
 import "./../../css/Color.css";
-import "./../../css/paralax.css";
 //import chakra UI component
 import { Text, Center, Flex } from "@chakra-ui/react";
 export default function Quote() {

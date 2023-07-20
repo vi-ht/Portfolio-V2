@@ -2,7 +2,6 @@
 import "./../../../css/font.css";
 import "./../../../css/Color.css";
 import "./../../../css/layout.css";
-import "./../../../css/animate.css";
 import "./../../../css/portfolio-anim.css";
 import { IconButton } from "@chakra-ui/react";
 import { useToast } from "@chakra-ui/react";

@@ -3,18 +3,13 @@ import "./../../../css/layout.css";
 import "./../../../css/font.css";
 import "./../../../css/scroll.css";
 import "./../../../css/background.css";
-import "./../../../css/portfolio-anim.css";
-//import hook
 //import chakra UI component
-import { Center, Flex, VStack } from "@chakra-ui/react";
-//import image
-// import chakra components
-import { Text, Box } from "@chakra-ui/react";
-import { Grid, GridItem, HStack, Spacer } from "@chakra-ui/react";
-//import image
+import { Grid, GridItem, HStack, Spacer, Center,Text, Box } from "@chakra-ui/react";
+//import component
 import { TitleTemplate } from "../component/TextTemplate";
 import TechBox from "./TechBox";
 import Layout from "./Layout";
+//------------------------------------------
 export default function TechList() {
     return (
         <Layout id="tech">

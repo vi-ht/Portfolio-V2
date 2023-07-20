@@ -1,12 +1,11 @@
 //import css
-import "./../../../css/layout.css";
 import "./../../../css/font.css";
-import "./../../../css/scroll.css";
 import "./../../../css/background.css";
-import "./../../../css/portfolio-anim.css";
 //inport iconify
 import { Icon } from "@iconify/react";
-import { Text, Box } from "@chakra-ui/react";
+//import chakraUI components
+import { Text } from "@chakra-ui/react";
+//----------------------------------------
 export default function EducationStage({
     children,
     des,

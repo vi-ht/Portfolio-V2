@@ -1,13 +1,8 @@
 //import css
-import "./../../../css/layout.css";
 import "./../../../css/font.css";
 import "./../../../css/scroll.css";
 import "./../../../css/background.css";
 import "./../../../css/portfolio-anim.css";
-//import hook
-//import chakra UI component
-import { Center, Flex } from "@chakra-ui/react";
-//import image
 // import chakra components
 import {
     Grid,
@@ -16,13 +11,15 @@ import {
     UnorderedList,
     Text,
     Box,
+    Center,
 } from "@chakra-ui/react";
 //import image
-import wavehand from "../../../asset/icon/twemojiwavinghand.png";
 import Avatar from "../../../asset/icon/exp.png";
-import { TextTemplate, TitleTemplate } from "../component/TextTemplate";
+//import component
+import { TitleTemplate } from "../component/TextTemplate";
 import Layout from "./Layout";
 import EducationStage from "./EducationStage";
+//-------------------------------
 export default function Experience() {
     return (
         <Layout id="exp">
@@ -64,12 +61,6 @@ export default function Experience() {
                     <Center w="full" h="full">
                         <Box>
                             <TitleTemplate isSpace>Experience</TitleTemplate>
-                            {/* <Box
-                                p="20px 0px"
-                                overflowY="scroll"
-                                overflowX="hidden"
-                                h="570px"
-                            > */}
                             <EducationStage
                                 name="FPT SOFTWARE"
                                 h={140}
@@ -155,7 +146,6 @@ export default function Experience() {
                                 </Text>
                             </EducationStage>
                         </Box>
-                        {/* </Box> */}
                     </Center>
                 </GridItem>
             </Grid>

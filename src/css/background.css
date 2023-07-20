@@ -53,7 +53,7 @@
 
 
 .mark {
-    height: 40px;
+    height: 35px;
     width: 4px;
     border-radius: 10px;
     opacity: 0.5;
@@ -63,7 +63,7 @@
 
 .mark.active {
     opacity: 1;
-    height: 60px;
+    height: 55px;
     background-color: #FB797F;
 }
 
@@ -74,7 +74,7 @@
 }
 
 .mark-outside.active {
-    height: 60px;
+    height: 55px;
     width: 30px;
 }
 

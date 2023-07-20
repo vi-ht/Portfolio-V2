@@ -1,7 +1,6 @@
 //import css
 import "./../../css/font.css";
 import "./../../css/Color.css";
-import "./../../css/animate.css";
 //import layout
 import BgColorLayout from "../../layout/BgColorLayout";
 //import custom hook
@@ -38,7 +37,7 @@ export default function InternoProject() {
             <Grid w="full" templateColumns="repeat(12, 1fr)" gap={4}>
                 <GridItem
                     colSpan={{ base: 12, lg: 7 }}
-                    colStart={{ base: 1, lg: 1 }}  
+                    colStart={{ base: 1, lg: 1 }}
                     transform="translate(-30px,0)"
                     opacity={0}
                     id="interno-left"
@@ -84,8 +83,14 @@ export default function InternoProject() {
                             </Text>
                             <UnorderedList>
                                 <ListItem>Analyze design templates.</ListItem>
-                                <ListItem>Convert design template to responsive web UI.</ListItem>
-                                <ListItem>Create effects and animations to increase the liveliness of the website.</ListItem>
+                                <ListItem>
+                                    Convert design template to responsive web
+                                    UI.
+                                </ListItem>
+                                <ListItem>
+                                    Create effects and animations to increase
+                                    the liveliness of the website.
+                                </ListItem>
                             </UnorderedList>
                             <Text
                                 fontSize="16px"

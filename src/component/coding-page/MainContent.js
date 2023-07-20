@@ -1,7 +1,6 @@
 //import css
 import "./../../css/font.css";
 import "./../../css/layout.css";
-import "./../../css/animate.css";
 //import hook
 import { useEffect } from "react";
 //import layout

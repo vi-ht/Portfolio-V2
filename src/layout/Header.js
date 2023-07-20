@@ -4,7 +4,6 @@ import { useLayoutEffect, useEffect } from "react";
 import "./../css/font.css";
 import "./../css/Color.css";
 import "./../css/layout.css";
-import "./../css/animate.css";
 // import chakraUI components
 import { HStack, Text, Box, Flex, Spacer, Center } from "@chakra-ui/react";
 // import react-router-dom

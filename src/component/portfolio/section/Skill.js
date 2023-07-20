@@ -1,21 +1,23 @@
 //import css
-import "./../../../css/layout.css";
 import "./../../../css/font.css";
 import "./../../../css/scroll.css";
 import "./../../../css/background.css";
-import "./../../../css/portfolio-anim.css";
-//import hook
 //import chakra UI component
-import { Center, Flex, VStack } from "@chakra-ui/react";
-//import image
-// import chakra components
-import { Text, Box } from "@chakra-ui/react";
-import { Grid, GridItem, HStack, Spacer } from "@chakra-ui/react";
-//import image
-import Avatar from "../../../asset/icon/edu.png";
-import { TextTemplate, TitleTemplate } from "../component/TextTemplate";
+import {
+    Grid,
+    GridItem,
+    HStack,
+    Spacer,
+    Center,
+    Text,
+    Box,
+} from "@chakra-ui/react";
+//import logic
+import { TitleTemplate } from "../component/TextTemplate";
+//import component
 import Layout from "./Layout";
 import ProgressBar from "./ProgressBar";
+//-----------------------------------------------
 export default function Skill() {
     return (
         <Layout id="skill">
@@ -29,8 +31,6 @@ export default function Skill() {
                 <GridItem
                     colSpan={{ base: 12 }}
                     colStart={1}
-                    // transform="translate(30px,0)"
-                    // id="abme-right"
                 >
                     <Center w="full" h="full">
                         <Box>
