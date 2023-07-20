@@ -23,6 +23,9 @@ const handleChangeTitle = (id) => {
         case "skill":
             element.innerHTML = "Skill";
             break;
+        case "tech":
+            element.innerHTML = "Technical";
+            break;
         default:
             break;
     }

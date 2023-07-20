@@ -10,7 +10,7 @@ import { Center, Flex } from "@chakra-ui/react";
 import wavehand from "../../../asset/icon/twemojiwavinghand.png";
 // import chakra components
 import { Text, Box } from "@chakra-ui/react";
-import { TextTemplate } from "../component/TextTemplate";
+import { TextTemplate, BigTextTemplate } from "../component/TextTemplate";
 //----------------------------------------------------------
 
 export default function Welcome({ bg, z, p }) {
@@ -75,7 +75,7 @@ export default function Welcome({ bg, z, p }) {
                             >
                                 Nice to see you.
                             </Text>
-                            <TextTemplate container>
+                            <BigTextTemplate container>
                                 <img
                                     src={wavehand}
                                     alt="wave-hand"
@@ -84,8 +84,8 @@ export default function Welcome({ bg, z, p }) {
                                 <span className="welcome-text qs-m">
                                     Welcome to my portfolio!{" "}
                                 </span>
-                            </TextTemplate>
-                            <TextTemplate>
+                            </BigTextTemplate>
+                            <BigTextTemplate>
                                 I’m{" "}
                                 <span
                                     className="highlight qs-b"
@@ -103,7 +103,7 @@ export default function Welcome({ bg, z, p }) {
                                     UX/UI Design
                                 </span>
                                 .
-                            </TextTemplate>
+                            </BigTextTemplate>
                         </Box>
                     </Box>
                 </Flex>

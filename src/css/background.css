@@ -9,7 +9,7 @@
     height: 1900px;
     flex-shrink: 0;
     border-radius: 50px;
-    background: radial-gradient(30% 30.00% at 30% 30.00%, rgba(251, 121, 127, 0.5) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background: radial-gradient(30% 30.00% at 30% 30.00%, rgba(251, 121, 127, 0.4) 0%, rgba(255, 255, 255, 0.00) 100%);
 }
 
 #gradient-compo-3 {
@@ -23,7 +23,7 @@
     height: 1900px;
     flex-shrink: 0;
     border-radius: 50px;
-    background: radial-gradient(30% 30.00% at 30% 30.00%, rgba(251, 121, 127, 0.5) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background: radial-gradient(30% 30.00% at 30% 30.00%, rgba(251, 121, 127, 0.4) 0%, rgba(255, 255, 255, 0.00) 100%);
 }
 
 #gradient-compo-4 {
@@ -35,19 +35,19 @@
     height: 1005px;
     flex-shrink: 0;
     border-radius: 50px;
-    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(251, 121, 127, 0.5) 0%, rgba(217, 217, 217, 0.00) 100%);
+    background: radial-gradient(50% 50.00% at 50% 50.00%, rgba(251, 121, 127, 0.4) 0%, rgba(217, 217, 217, 0.00) 100%);
 }
 
 #svg {
     position: absolute;
-    top: -175px;
+    top: -150px;
     /* 259 */
     z-index: -15;
 }
 
 #svg1 {
     position: absolute;
-    top: -175px;
+    top: -150px;
     z-index: -20;
 }
 
@@ -96,8 +96,8 @@
 }
 
 .stage-bar-circle {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     border: #FB797F 3px solid;
     border-radius: 50%;
 }
@@ -111,8 +111,8 @@
 
 .edu-icon {
     background-color: #FB797F;
-    width: 45px;
-    height: 45px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -125,7 +125,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     gap: 15px;
-    margin-bottom: 30px
+    margin-bottom: 20px
 }
 
 .stage-content {
@@ -145,7 +145,7 @@
     height: 3px;
     background-color: #FB797F;
     border-radius: 10px;
-    margin: 15px 0px;
+    margin: 12px 0px;
 }
 
 .stage-text {
@@ -153,8 +153,7 @@
 }
 
 .stage-title-text {
-    max-width: 420px;
-    margin-bottom: 5px;
+    max-width: 380px;
 }
 
 .stage-title {
@@ -165,7 +164,7 @@
 }
 
 .stage-date {
-    padding: 8px;
+    padding: 5px 7px;
     height: 30px;
     border: #FB797F 3px solid;
     border-radius: 30px;
@@ -176,4 +175,43 @@
 
 #work-exp::-webkit-scrollbar {
     width: 4px !important;
+}
+
+.progress-bar-outside {
+    width: auto;
+    height: 13.5px;
+    padding: 4px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px rgba(251, 121, 127, 0.45);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.progress-bar-inside {
+    height: 5.5px;
+    width: 70%;
+    background-color: #FB797F;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    margin-bottom: 35px;
+}
+
+.tech-box {
+    height: 105px;
+    width: 105px;
+    border-radius: 35px;
+    background-color: white;
+    box-shadow: 20px 20px 50px rgba(251, 121, 127, 0.30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.tech-box-icon {
+    margin-top: 10px
 }

@@ -17,6 +17,7 @@ import AboutVi from "./AboutVi";
 import Education from "./Education";
 import Experience from "./Experience";
 import Skill from "./Skill";
+import TechList from "./TechList";
 //import logic
 import { handleScroll } from "../side-effect/handleScroller";
 //----------------------------------------------------------
@@ -105,11 +106,12 @@ export default function Welcome({ bg, z, p }) {
                             "radial-gradient(50% 50.00% at 50% 50.00%, rgba(251, 121, 127, 0.5) 10%, rgba(217, 217, 217, 0.00) 100%)",
                     }}
                 />
-                <Box w="100%" bg="transparent" id="scroller" className="">
+                <Box w="full" bg="transparent" id="scroller" className="">
                     <AboutVi />
                     <Education />
                     <Experience />
                     <Skill />
+                    <TechList/>
                 </Box>
             </Center>
         </Center>

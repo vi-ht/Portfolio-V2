@@ -14,19 +14,19 @@ import { Grid, GridItem } from "@chakra-ui/react";
 //import image
 import wavehand from "../../../asset/icon/twemojiwavinghand.png";
 import Avatar from "../../../asset/icon/ava.png";
-import { TextTemplate } from "../component/TextTemplate";
+import { TextTemplate, TitleTemplate } from "../component/TextTemplate";
 import Layout from "./Layout";
 export default function AboutVi() {
     return (
         <Layout id="about-vi">
             <Grid
                 w="100%"
-                templateColumns="repeat(12, 1fr)"
-                gap={{ base: 4, lg: 0 }}
+                templateColumns="repeat(14, 1fr)"
+                gap={{ base: 4, lg: 5 }}
                 mt={{ base: 8, sm: 6, lg: 0 }}
             >
                 <GridItem
-                    colSpan={{ base: 12, lg: 6 }}
+                    colSpan={{ base: 14, lg: 6 }}
                     colStart={1}
                     w="full"
                     mb={{ base: 2, sm: 4, md: 5, lg: 0 }}
@@ -36,9 +36,11 @@ export default function AboutVi() {
                             w="full"
                             h={{
                                 base: "100%",
-                                xl: "96%",
-                                "2xl": "85%",
+                                xl: "80%",
+                                "2xl": "80%",
                             }}
+                            justifyContent="center"
+                            alignItems="center"
                         >
                             <img
                                 src={Avatar}
@@ -47,41 +49,21 @@ export default function AboutVi() {
                                     width: "100%",
                                     height: "100%",
                                     objectFit: "contain",
-                                    objectPosition: "0% 0%",
+                                    // objectPosition: "0% 0%",
                                 }}
                             ></img>
                         </Box>
                     </Center>
                 </GridItem>
                 <GridItem
-                    colSpan={{ base: 12, lg: 6 }}
+                    colSpan={{ base: 14, lg: 8 }}
                     colStart={{ base: 1, lg: 7 }}
                     transform="translate(30px,0)"
                     id="abme-right"
                 >
                     <Center w="full" h="full">
                         <Box>
-                            <Text
-                                fontSize={{
-                                    base: "50px", //0px
-                                    sm: "65px", // 480px
-                                    md: "70px", // 768px
-                                    lg: "70px", // 992px
-                                }}
-                                lineHeight={{
-                                    base: "60px", //0px
-                                    sm: "80px", // 480px
-                                    md: "80px", // 768px
-                                    lg: "90px", // 992px
-                                }}
-                                w={{
-                                    base: "100%",
-                                    lg: "60%",
-                                }}
-                                className="qs-b main-color"
-                            >
-                                HUỲNH THỊ THANH VI
-                            </Text>
+                            <TitleTemplate isPink isBold>HUỲNH THỊ THANH VI</TitleTemplate>
                             <img
                                 src={wavehand}
                                 alt="wave-hand"
@@ -100,8 +82,8 @@ export default function AboutVi() {
                                     }}
                                 >
                                     software engineering
-                                </span>
-                                {" "}at {" "}
+                                </span>{" "}
+                                at{" "}
                                 <span
                                     className="highlight qs-smb"
                                     style={{

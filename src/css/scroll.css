@@ -5,6 +5,7 @@
      overflow: hidden;
      box-sizing: border-box;
      scroll-snap-type: y mandatory;
+     scroll-behavior: smooth;
  }
 
  #test {
@@ -12,12 +13,11 @@
  }
 
  .scroller-child {
-     width: 100vw;
-     height: 100vh;
      display: flex;
      align-items: center;
      justify-content: center;
      scroll-snap-align: start;
+     scroll-behavior: smooth;
  }
 
  /* #scroller>div:nth-child(2n) {

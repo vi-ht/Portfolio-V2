@@ -16,11 +16,12 @@ export default function Layout({ children, id }) {
                     base: "90%", //0px
                     sm: "94%", // 480px
                     md: "86%", // 768px
-                    lg: "94%", // 992px
+                    lg: "90%", // 992px
                     xl: "80%", // 1280px
-                    "2xl": "83rem", //1536px
+                    "2xl": "81rem", //1536px
                 }}
                 h="100vh"
+                // bg="red"
             >
                 <Flex
                     w="full"

@@ -25,22 +25,22 @@ export default function EducationStage({
                 <Icon
                     icon={!isExp ? "fa6-solid:graduation-cap" : "uis:bag"}
                     color="white"
-                    width="27"
-                    height="27"
+                    width="24"
+                    height="25"
                 />
             </div>
             <div className="stage-content">
                 <div className="stage-title">
-                    <Text className="qs-b stage-title-text" fontSize="22px">
+                    <Text className="qs-b stage-title-text" fontSize="20px">
                         {name.toUpperCase()}{" "}
                     </Text>
                     <div className="stage-date">
-                        <Text className="qs-b  main-color" fontSize="16px">
+                        <Text className="qs-b  main-color" fontSize="14px">
                             {date}
                         </Text>
                     </div>
                 </div>
-                <Text className="qs-r stage-text" fontSize="20px">
+                <Text className="qs-r stage-text" fontSize="16px">
                     {des}
                 </Text>
                 <div className="stage-content-line"></div>

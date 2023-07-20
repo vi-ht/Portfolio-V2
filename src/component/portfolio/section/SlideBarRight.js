@@ -30,7 +30,7 @@ export default function SlideBarRight() {
             <Box>
                 <VStack gap={3}>
                     <div className="mark-title">
-                        <Text fontSize="20px" className="qs-m">
+                        <Text fontSize="18px" className="qs-m">
                             About <span className="main-color qs-m">V</span>
                         </Text>
                     </div>
@@ -47,7 +47,7 @@ export default function SlideBarRight() {
                         <div className="mark skill"></div>
                     </div>
                     <div className="mark-outside ">
-                        <div className="mark"></div>
+                        <div className="mark tech"></div>
                     </div>
                     <div className="mark-outside ">
                         <div className="mark"></div>

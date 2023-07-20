@@ -20,7 +20,7 @@ import {
 //import image
 import wavehand from "../../../asset/icon/twemojiwavinghand.png";
 import Avatar from "../../../asset/icon/exp.png";
-import { TextTemplate } from "../component/TextTemplate";
+import { TextTemplate, TitleTemplate } from "../component/TextTemplate";
 import Layout from "./Layout";
 import EducationStage from "./EducationStage";
 export default function Experience() {
@@ -28,18 +28,18 @@ export default function Experience() {
         <Layout id="exp">
             <Grid
                 w="100%"
-                templateColumns="repeat(13, 1fr)"
+                templateColumns="repeat(14, 1fr)"
                 gap={{ base: 4, lg: 0 }}
                 mt={{ base: 8, sm: 6, lg: 0 }}
             >
-                <GridItem colSpan={{ base: 13, lg: 6 }} colStart={1}>
+                <GridItem colSpan={{ base: 14, lg: 6 }} colStart={1}>
                     <Center w="full" h="full">
                         <Box
                             w="full"
                             h={{
                                 base: "100%",
-                                xl: "96%",
-                                "2xl": "85%",
+                                xl: "80%",
+                                "2xl": "80%",
                             }}
                         >
                             <img
@@ -49,42 +49,21 @@ export default function Experience() {
                                     width: "100%",
                                     height: "100%",
                                     objectFit: "contain",
-                                    objectPosition: "0% 0%",
+                                    // objectPosition: "0% 0%",
                                 }}
                             ></img>
                         </Box>
                     </Center>
                 </GridItem>
                 <GridItem
-                    colSpan={{ base: 13, lg: 7 }}
+                    colSpan={{ base: 14, lg: 8 }}
                     colStart={{ base: 1, lg: 7 }}
                     w="full"
                     mb={{ base: 2, sm: 4, md: 5, lg: 0 }}
                 >
                     <Center w="full" h="full">
                         <Box>
-                            <Text
-                                fontSize={{
-                                    base: "50px", //0px
-                                    sm: "65px", // 480px
-                                    md: "70px", // 768px
-                                    lg: "70px", // 992px
-                                }}
-                                lineHeight={{
-                                    base: "60px", //0px
-                                    sm: "80px", // 480px
-                                    md: "80px", // 768px
-                                    lg: "90px", // 992px
-                                }}
-                                w={{
-                                    base: "100%",
-                                    lg: "60%",
-                                }}
-                                mb="50px"
-                                className="qs-smb"
-                            >
-                                WORK EXPERIENCE
-                            </Text>
+                            <TitleTemplate isSpace>Experience</TitleTemplate>
                             {/* <Box
                                 p="20px 0px"
                                 overflowY="scroll"
@@ -93,20 +72,20 @@ export default function Experience() {
                             > */}
                             <EducationStage
                                 name="FPT SOFTWARE"
-                                h={175}
+                                h={140}
                                 date="May 21 - Sep 21"
                                 isExp
                             >
                                 <Text
                                     className="qs-r stage-text"
-                                    fontSize="20px"
+                                    fontSize="16px"
                                 >
                                     <span className="qs-smb">Position:</span>{" "}
                                     Intern
                                 </Text>
                                 <Text
                                     className="qs-r stage-text"
-                                    fontSize="20px"
+                                    fontSize="16px"
                                 >
                                     <span className="qs-smb">
                                         Description:{" "}
@@ -114,7 +93,7 @@ export default function Experience() {
                                 </Text>
                                 <Text
                                     className="qs-r stage-text"
-                                    fontSize="20px"
+                                    fontSize="16px"
                                 >
                                     <UnorderedList>
                                         <ListItem>
@@ -129,20 +108,20 @@ export default function Experience() {
                             </EducationStage>
                             <EducationStage
                                 name="FELIXZONE COMPANY"
-                                h={255}
+                                h={205}
                                 date="Dec 21 - Sep 22"
                                 isExp
                             >
                                 <Text
                                     className="qs-r stage-text"
-                                    fontSize="20px"
+                                    fontSize="16px"
                                 >
                                     <span className="qs-smb">Position:</span>{" "}
                                     Front-end web developer
                                 </Text>
                                 <Text
                                     className="qs-r stage-text"
-                                    fontSize="20px"
+                                    fontSize="16px"
                                 >
                                     <span className="qs-smb">
                                         Description:{" "}
@@ -150,7 +129,7 @@ export default function Experience() {
                                 </Text>
                                 <Text
                                     className="qs-r stage-text"
-                                    fontSize="20px"
+                                    fontSize="16px"
                                 >
                                     <UnorderedList>
                                         <ListItem>

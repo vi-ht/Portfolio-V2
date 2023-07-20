@@ -23,7 +23,7 @@ export default function Footer() {
                     md: "86%", // 768px
                     lg: "94%", // 992px
                     xl: "80%", // 1280px
-                    "2xl": "83rem", //1536px
+                    "2xl": "81rem", //1536px
                 }}
                 display={{
                     base: "none", //0px
